@@ -3,8 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>North of the Border</title>
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
+<div id="container">
+    <header>
+        <div id="top-part">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;North of the Border
+        </div>
+        <!--<img id="logo" src="img/logo2.png">-->
+        <!--<div id="contact">Blah</div>-->
+
+        <ul class="topnav" id="myTopnav">
+            <li onclick="$('section').hide();$('#intro').show();">Home</li>
+            <li onclick="$('section').hide();$('#aboutus').show();">About Us</li>
+            <li onclick="$('section').hide();$('#statfaith').show();">Statement of Faith</li>
+            <li onclick="$('section').hide();$('#visiondev').show();">Vision Development</li>
+            <li class="icon" onclick="burger()">
+                &#9776;
+            </li>
+        </ul>
+    </header>
+    <section id="intro">
+        <p class="pageTitle">Introduction</p>
+        <p>This is my introduction. I think it's great.</p>
+    </section>
+    <section id="aboutus">
+        <p class="pageTitle">About Us</p>
+        <p>Hello, and welcome to "North of the Border". My name is Matthew Oakley. I'm British, married to Hyunsu Cha since 2004, and I have two lovely children, Samantha and Tiffany.
+            I've lived in South Korea since graduating from the Bible College of Wales in 2002.</p>
+        <p>I was born again in a tent crusade aged 12, and was filled with the Holy Spirit aged 16. After studying Classics at Cambridge University,
+            I spent five wonderful years in Northern France, sharing the gospel, leading worship and preaching in a Baptist Church.
+            I saw the wonderful supernatural work of the Holy Spirit and led several people to Christ. During that time, God gave me a dream
+            in which I saw the Lord Jesus about to return to the earth (I did not see his face). I was overwhelmed by the impression of his power, authority and holiness.
+            The dream had an enormous impression on me, and the return of the Lord has been a strong theme for me ever since.</p>
+        <p>After returning to the UK in 1997, I attended the Bible College of Wales in Swansea, which was founded by the missionary Rees Howells.
+            After that, I spent a year helping a mission group called 'Nations' in Llanelli. I was then invited to come to Korea by my good friend Wan-Jin Hong,
+            who leads Chunbosan Prayer Mountain in NamYangJu, east of Seoul.</p>
+        <p>In Korea, I have led English worship in several churches in Pusan, Incheon and most recently Osan Baptist Church.</p>
+        <p>My entire purpose in Korea is to fulfill the mission of North of the Border, which God gave me in a dream in 2004.
+            I met the Lord Jesus a second time in a dream in 2014, in which he told me that "For as long as you have lived in South Korea,
+            you must live in North Korea to get to know the nation and its people. I can't say I'm thrilled at the prospect, to be honest,
+            but I'm sure the work will be satisfying. The Lord said "My food is to do the work of Him who sent me".</p>
+        <p>Regarding ministry credentials, I have no ordination from men, but I am a gift of Jesus Christ to the Church according to Ephesians 4:11. Grace is with me wherever I preach.</p>
+    </section>
+    <section id="statfaith">
+        <p class="pageTitle">Statement of Faith</p>
+    </section>
+    <section id="visiondev">
+        <p class="pageTitle">Vision Development</p>
+    </section>
+    <footer>
+
+    </footer>
+</div>
 
 </body>
 </html>

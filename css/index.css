@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #0a0058;
+}
+header{
+    position: relative;
+    text-align: center;
+    /*font-size: 4rem;*/
+    /*line-height: 7rem;*/
+    /*height: 20%;*/
+    vertical-align: bottom;
+    /*border: 1px solid red;*/
+    overflow: auto;
+}
+#top-part{
+    font-family: 'Calibri', sans-serif;
+    font-weight: bold;
+    /*font-family: 'Proza Libre', sans-serif;*/
+    padding: 1% 0;
+    /*height: 70%;*/
+    font-size: 4rem;
+    background: url('../img/logo2.png') no-repeat;
+    background-size: contain;
+    /*border: 1px solid maroon;*/
+    color: #c00022;
+}
+#container{
+    border-radius: 6px;
+
+    width: 70%;
+    padding: 0 3%;
+    margin: auto;
+    margin-top: 2%;
+    min-height: 100%;
+    background-color: #e8e3c3;
+}
+
+#contact{
+float: right;
+}
+ul.topnav{
+    position: relative;
+    clear: both;
+    background-color: #548135;
+    line-height: 1rem;
+    margin: 0;
+}
+ul.topnav li{
+    display: inline-block;
+    color: #000022;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.8rem 1.1rem;
+    transition: 0.2s;
+    font-family: 'Proza Libre', sans-serif;
+    cursor: pointer;
+}
+ul.topnav li:hover{
+    background-color: #74A253;
+}
+ul.topnav li.icon{
+    display: none;
+}
+section{
+    font-size: 1.4rem;
+    width: 80%;
+    margin: auto;
+}
+section p.pageTitle{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Proza Libre', sans-serif;
+}
+section:not(:first-of-type){
+    display: none;
+}
+
+@media screen and (max-width: 680px){
+    #container{
+        width: 100%;
+        padding: 0;
+    }
+    #top-part{
+        font-size: 2rem;
+        padding: 1% 3%;
+        text-align: right;
+    }
+    #logo{
+        width: 15%;
+    }
+    ul.topnav li:not(:first-child){
+        display: none;
+    }
+    ul.topnav li.icon{
+        float: right;
+        display: inline-block;
+    }
+    ul.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li{
+        float: none;
+        display: block;
+    }
+}
