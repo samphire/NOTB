@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Intro</title>
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        @font-face{
+            font-family: FontinSans;
+            src: url("font/Fontin_Sans_R_45b.otf") format("opentype");
+        }
+
+        html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background: url(img/bridge.jpg);
+            background-size: cover;
+        }
+        div.overlay{
+            height: 100%;
+            background-color: rgba(220, 199, 170, 0.7);
+            z-index: 12;
+            font-family: FontinSans;
+        }
+        #text{
+            position: absolute;
+            width: 55%;
+            margin-left: 35%;
+            background-color: #f5f4f2;
+            opacity: 1;
+            padding: 15px;
+            color: #444;
+            /*z-index: 15;*/
+            /*height: 100%;*/
+            font-size: 1.3rem;
+            font-family: 'Calibri', sans-serif;
+            /*line-height: 150%;*/
+        }
+        .title{
+            font-size: 4rem;
+            text-align: center;
+            /*font-family: 'Proza Libre', sans-serif;*/
+            font-family: 'FontinSans', sans-serif;
+            color: #F45923;
+        }
+        .logo{
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+
+        #nav {
+            /*display: inline-block;*/
+            /*float: right;*/
+            text-align: center;
+            /*padding: 24px 0;*/
+            padding: 17px 0;
+            margin: -15px -15px 15px -15px;
+            /*background-color: rgba(0, 51, 90, 0.8);*/
+            background-color: #322D2B;
+            /*font-family: "Calibri Light";*/
+            font-family: "FontinSans";
+            font-size: 1.5rem;
+            /*margin-top: 1%;*/
+            /*position: absolute;*/
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        #nav span {
+            padding: 24px 24px;
+
+        }
+
+        #nav span.inactive:hover {
+            cursor: pointer;
+            /*background-color: #ccb79a;*/
+        }
+        #nav>span>a{
+            text-decoration: none;
+            /*color: #de3d11;*/
+            color: goldenrod;
+        }
+        #nav>span.inactive:hover>a{
+            color: powderblue;
+
+        }
+        #nav>span>a.active{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="overlay">
+
+    <img class="logo" src="img/notb.png">
+<div id="text">
+    <div id="nav">
+        <span><a href="intro.html" class="active">intro</a></span>
+        <span class="inactive"><a href="vision.html">vision</a></span>
+        <span class="inactive"><a href="about.html">about us</a></span>
+        <span class="inactive"><a href="stat.html">statement of faith</a></span>
+    </div>
+    <div class="title">Introduction</div>
+    <div class="text">
+        <img style="float: right;" src="img/webmatt2.png">
+        <p>Hello, and welcome to "North of the Border". My name is Matthew Oakley. I'm British, married to Hyunsu Cha since 2004, and I have two lovely children, Samantha and Tiffany.
+        I've lived in South Korea since graduating from the Bible College of Wales in 2002.</p>
+        <p>I was born again in a tent crusade aged 12, and was filled with the Holy Spirit aged 16. After studying Classics at Cambridge University,
+            I spent five wonderful years in Northern France, sharing the gospel, leading worship and preaching in a Baptist Church.
+            I saw the wonderful supernatural work of the Holy Spirit and led several people to Christ. During that time, God gave me a dream
+            in which I saw the Lord Jesus about to return to the earth (I did not see his face). I was overwhelmed by the impression of his power, authority and holiness.
+            The dream had an enormous impression on me, and the return of the Lord has been a strong theme for me ever since.</p>
+        <p>After returning to the UK in 1997, I attended the Bible College of Wales in Swansea, which was founded by the missionary Rees Howells.
+            After that, I spent a year helping a mission group called 'Nations' in Llanelli. I was then invited to come to Korea by my good friend Wan-Jin Hong,
+            who leads Chunbosan Prayer Mountain in NamYangJu, east of Seoul.</p>
+        <p>In Korea, I have led English worship in several churches in Pusan, Incheon and most recently Osan Baptist Church.
+            My titles have ranged from 'Pastor' to 'Brother' with everything in between. In fact, I am a gift of Jesus Christ to the Church according to Ephesians 4:11.
+            Grace is with me when I speak about the Kingdom of God.</p>
+        <p>My purpose for being in Korea is to fulfill the mission of North of the Border, which God gave me in a dream in 2004, confirmed over and over again with signs and wonders.
+            I met the Lord Jesus a second time in a dream in 2014, in which he told me that "For as long as you have lived in South Korea,
+            you must live in North Korea to get to know the nation and its people." The safest place to be in the whole world is exactly where God puts you.
+            The work will be fruitful and satisfying, involving many others besides myself. Maybe you!</p>
+        </div>
+</div>
+</div>
+</body>
+</html>
